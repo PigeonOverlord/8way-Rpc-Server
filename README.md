@@ -19,7 +19,7 @@ To configure the XML-RPC server to work within your network environment, you nee
 
 ### Configuration
 
-file:///home/peter/Pictures/8-way%20documentation%20pictures/config.png
+![config](https://github.com/PigeonOverlord/8way-Rpc-Server/assets/85998646/d4ae82f6-d028-4314-aa5d-01bf4e8640ff)
 
 *   **SERVER\_IP**: Specifies the IP address on which the XML-RPC server will listen for incoming requests. It should be set to the IP address of the machine where the script is running. Clients will connect to this address to send XML-RPC requests.
     
