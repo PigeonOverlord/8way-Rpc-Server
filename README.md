@@ -1,7 +1,7 @@
 
 # XML-RPC Server Script Usage Documentation
 
-##Prerequisites
+## Prerequisites
 
 Requires [TSduck](https://tsduck.io) installation
 
