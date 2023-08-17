@@ -1,15 +1,16 @@
 
 # XML-RPC Server Script Usage Documentation
 
+##Prerequisites
+
+Requires [TSduck](https://tsduck.io) installation
 
 ## Introduction:
 
 
-This script implements an XML-RPC server for managing media streaming processes on specified ports. It allows clients to remotely start and stop media streams on different ports, as well as retrieve the status of each port's streaming process.
+This script implements an XML-RPC server for managing media streaming processes on a DTA-2115 8-way DekTec device. It allows clients to remotely start and stop media streams on different ports, as well as retrieve the status of each port's streaming process.
 
 The script utilises the `xmlrpc.server` module from Python's standard library to create the XML-RPC server. It exposes three main functions: `play`, `stop`, and `get_port_status`.
-
-
 
 
 ## Server Configuration:
