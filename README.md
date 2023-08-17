@@ -49,6 +49,8 @@ To configure the XML-RPC server to work within your network environment, you nee
 
 Starts a media streaming process on the specified port.
 
+![play](https://github.com/PigeonOverlord/8way-Rpc-Server/assets/85998646/ae217d70-1de2-4696-93a1-b7abdfdb3625)
+
 
 **Parameters:**
 
@@ -72,6 +74,7 @@ Starts a media streaming process on the specified port.
 
 Stops a media streaming process on the specified port.
 
+![stop](https://github.com/PigeonOverlord/8way-Rpc-Server/assets/85998646/207197ec-137d-4509-a72c-96c14b68ac28)
 
 **Parameters:**
 
@@ -91,6 +94,8 @@ Stops a media streaming process on the specified port.
 
 Retrieves the status of all streaming ports.
 
+![port_status](https://github.com/PigeonOverlord/8way-Rpc-Server/assets/85998646/53e914e8-d283-496d-9b81-20911a46beaf)
+
 
 **Returns:**
 
@@ -103,6 +108,7 @@ Retrieves the status of all streaming ports.
 
 After defining the required functions, the script registers these functions on the XML-RPC server instance. This step makes the functions available for remote procedure calls from clients. Additionally, the script initiates the server to start processing incoming requests.
 
+![function_register](https://github.com/PigeonOverlord/8way-Rpc-Server/assets/85998646/775dc945-1391-4812-8e2e-900f24cc770d)
 
 *   The `register_function` method is called on the `server` instance for each function.
     
@@ -111,9 +117,6 @@ After defining the required functions, the script registers these functions on t
 *   The second argument is a string that represents the function's name as it will be exposed to clients during XML-RPC calls.
     
 
-
-
-
 ## Starting the Server
 
 To start the server run the server script i.e:
@@ -121,6 +124,8 @@ To start the server run the server script i.e:
 `python3 rpcServer.py`
 
 To start processing incoming XML-RPC requests, the script utilizes a `try` block to initiate the server and serve requests indefinitely. A graceful exit is implemented to handle a `KeyboardInterrupt` event (typically triggered by pressing `Ctrl + C`).
+
+![server_start](https://github.com/PigeonOverlord/8way-Rpc-Server/assets/85998646/e63b5fde-d54f-4f24-9927-8af5e78ac820)
 
 *   The `__name__` special variable is used to check if the script is being run as the main program.
     
