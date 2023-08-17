@@ -19,6 +19,8 @@ To configure the XML-RPC server to work within your network environment, you nee
 
 ### Configuration
 
+file:///home/peter/Pictures/8-way%20documentation%20pictures/config.png
+
 *   **SERVER\_IP**: Specifies the IP address on which the XML-RPC server will listen for incoming requests. It should be set to the IP address of the machine where the script is running. Clients will connect to this address to send XML-RPC requests.
     
 
